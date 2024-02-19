@@ -1,0 +1,16 @@
+
+INSERT INTO animal (id, name, species) VALUES   (1, 'Dog', 'Mammal'),
+                                                (2, 'Cat', 'Mammal'),
+                                                (3, 'Snake', 'Reptile'),
+                                                (4, 'Bird', 'Bird'),
+                                                (5, 'Fish', 'Fish'),
+                                                (6, 'Lizard', 'Reptile'),
+                                                (7, 'Turtle', 'Reptile'),
+                                                (8, 'Frog', 'Amphibian'),
+                                                (9, 'Salamander', 'Amphibian'),
+                                                (10, 'Shark', 'Fish'),
+                                                (11, 'Dolphin', 'Mammal'),
+                                                (12, 'Whale', 'Mammal'),
+                                                (13, 'Penguin', 'Bird'),
+                                                (14, 'Ostrich', 'Bird'),
+                                                (15, 'Eagle', 'Bird');

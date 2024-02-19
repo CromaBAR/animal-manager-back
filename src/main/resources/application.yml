@@ -1,0 +1,28 @@
+#DB_HOST: "aws.connect.psdb.cloud"
+#DB_USERNAME: "033bol7tou7gcuwgj1st"
+#DB_PASSWORD: "pscale_pw_LkioOgGtOEcvyFjEO9A6zsATcfI7kDkddD5QqhpCdWG"
+#DB_NAME: "animals"
+
+
+
+spring:
+  datasource:
+    url: jdbc:mysql://aws.connect.psdb.cloud/animals
+    username: 1dcm22r86qqg5msw4dxj
+    password: pscale_pw_gV6cQEbcdAXSfpF4mAN4p6Yy4bEXrKu42mfVHJDtxka
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  application:
+    name: animals-manager
+  profiles:
+    active: dev
+  jpa:
+    hibernate:
+      ddl-auto: create
+
+  flyway:
+    enabled: false
+    url: jdbc:mysql://aws.connect.psdb.cloud/animals
+    user: 1dcm22r86qqg5msw4dxj
+    password: pscale_pw_gV6cQEbcdAXSfpF4mAN4p6Yy4bEXrKu42mfVHJDtxka
+    locations:
+      filesystem: db/migration
