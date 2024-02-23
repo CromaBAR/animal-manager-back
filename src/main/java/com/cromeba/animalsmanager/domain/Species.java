@@ -7,15 +7,14 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@Entity
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 public class Species {
 
-    @Id
-    @Column(name = "id")
+//    @Id
+//    @Column(name = "id")
     private Integer id;
-    @Column(name = "denomination")
+//    @Column(name = "denomination")
     private String denomination;
 }
